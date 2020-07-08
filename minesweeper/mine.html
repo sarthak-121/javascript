@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>game</title>
+    <style>
+        #gameboard {
+            border: black;
+            box-shadow: 0 0 20px 4px black
+        }
+
+        div {
+           text-align: center;
+        }
+
+        img {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <img id="1_img" src="1.png">
+    <img id="2_img" src="2.png">
+    <img id="3_img" src="3.png">
+    <img id="flag_img" src="flag.png">
+    <img id="bomb_img" src="bomb.png">
+    <img id="cover_img"src="cover.png">
+    <img id="0_img"src="0.png">
+    <img id="4_img"src="4.png">
+    <img id="5_img"src="5.png">
+    <img id="time_img"src="time.png">
+
+    <div >
+    <canvas id="gameboard" height="600" width="400"></canvas>
+    </div>
+
+    <script src="minesweeper.js" ></script>
+
+</body>
+</html>
