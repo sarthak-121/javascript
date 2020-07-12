@@ -39,6 +39,7 @@ class Body {
     }
 
     /**
+     * 
      * @param {object} ctx is the context of the canvas which is used to draw stuff
      */
     draw(ctx) {
@@ -61,6 +62,7 @@ class Input {
             this.buttonPressed = true;
 
             switch (event.keyCode) {
+                // 
                 case 37: if(this.direction != 39) {
                             this.direction = 37;
                          }
