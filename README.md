@@ -13,8 +13,8 @@ basic minesweeper game implemented using html and javascript
 
 # snake game
 
-basic snake game implemented using html and javascript\
+basic snake game implemented using html and javascript
 
 # tile game
 
-uncover all similar pair  tiles to win to win the game
+uncover all similar pair of tiles to win the game
