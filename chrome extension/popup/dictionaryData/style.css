@@ -1,0 +1,35 @@
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.cards {
+   margin: 15px 0px;
+   box-shadow: -2px -2px 5px 0px black;
+   padding: 5px;
+   background-image: url('bg.jpg');
+   transition: 200ms;
+   transition-property: box-shadow;
+}
+
+.cards h6 {
+    color: rgb(80, 80, 80);
+    float: right;
+}
+
+.cards:hover {
+    box-shadow: -4px -4px 5px 0px black;
+}
+
+.cards h3,p {
+    display: inline;
+}
+
+.cards p {
+    font-style: italic;
+    color: green;
+}
+
+
+
