@@ -15,7 +15,6 @@ inputFile.addEventListener('change',function() {
         previewImage.style.display = "block";
 
         reader.addEventListener('load', function() {
-            console.log(this);
             previewImage.setAttribute("src", this.result);
         });
 
@@ -26,8 +25,6 @@ inputFile.addEventListener('change',function() {
         previewImage.style.display = null;
     }
 });
-
-
 
 /********** download script *************/
 
