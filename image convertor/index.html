@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <header>Image Convertor</header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 p-3 mb-2 bg-primary text-white">
+                <h1>Upload image here</h1>
+                <input type="file" id="inputFile">
+                <div id="previewContainer">
+                    <img src="" alt="Image Preview"  class="previewImage">
+                    <span class="previewText">Image Preview</span>
+                </div>
+            </div>
+            <div class="col-sm-6 p-3 mb-2 bg-info text-whitee">
+                <h1>Download image here</h1>
+
+                <label for="imageFormats">Choose a format:</label>
+                <select name="imageFormats" id="formats">
+                <option value="png">png</option>
+                <option value="jpeg">jpeg</option>
+                <option value="jpg">jpg</option>
+                <option value="bmp">Bitmap</option>
+                <option value="gif">GIF</option>
+                <option value="tiff">TIFF(.tiff)</option>
+                <option value="tif">TIFF(.tif)</option>
+                </select>
+                <br>
+                <button id="download">Download</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
